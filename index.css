@@ -1,3 +1,66 @@
+/* --button-width = "3rem"; */
+
 :root {
-    background-color: black;
+    background-color: #2D3436;
+    display: flex;
+    justify-content: center;
+    color: #0984E3;
+    font-size: 18px;
+}
+
+#calculator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DFE6E9;
+    min-height: 48rem;
+    min-width: 40rem;
+    margin-top: 8rem;
+    border-radius: 8%;
+}
+
+#text-box {
+    background-color: #1A1A1A;
+    width: 90%;
+    height: 6rem;
+    margin-top: 4rem;
+    border-radius: 2rem;
+    color: white;
+    font-size: 32px;
+    border: 0;
+}
+
+.button-row {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    /* border: 2px red solid; */
+    padding: 8px;
+}
+
+.button {
+    width: 8rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #8d8f91;
+}
+
+.button:hover {
+    box-shadow: 10px 5px 5px rgb(99, 96, 96);
+    background-color:  #6fb1e4;
+}
+
+.big-button {
+    width: 17rem;
+    border-radius: 5rem;
+}
+
+#row-one {
+    margin-top: 2rem;
+}
+
+#subtract {
+    
 }
